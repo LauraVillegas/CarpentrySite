@@ -1,0 +1,138 @@
+body {
+font-family: 'Old Standard TT', serif;
+	}
+
+p {
+	font-family: 'Vollkorn', serif;
+	}
+
+.fulls {
+	min-height: 100vh;
+	}
+
+.logo {
+    max-width: 100%;
+	}
+
+.jarallax {
+    height: 1000px;
+	}
+
+.car-img { 
+	max-height: 70vh;
+	min-width: 100vw;
+	}
+
+.about_text{
+	color: white;
+	text-align: left;
+	}
+
+#map {
+        height: 400px;
+        width: 100%;
+       }
+
+.sunset {
+	background: url(../img/wood-medium.jpeg)no-repeat center center fixed;
+	background-size: cover;
+	}
+
+.navbar {
+    background-color: transparent;
+	}
+
+.top-nav-collapse {
+    background-color: #3f3229;
+	}
+
+.homehead{
+	background: url(../img/tools.jpg)no-repeat center center fixed;
+	background-size: cover;
+	}
+
+.gallery{
+	background-color: #3f322a;
+	background-size: cover;
+	}
+
+.container {
+  padding-right: auto;
+  padding-left: auto;
+  margin-right: auto;
+  margin-left: auto;
+	}
+
+.b-header{
+	background: url(../img/city.jpg)no-repeat center center ;
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	}
+
+.foot{
+	background-color: #3f322a;
+	background-size: cover;
+	}
+
+@media only screen and (max-width : 992px)  {
+	}
+
+
+
+@media (max-width: 740px) {
+			.full-height,
+			.full-height body,
+			.full-height header,
+			.full-height header .view {
+				height: 500px;
+
+			}
+			.homehead {
+				background: url(../img/tools.jpg)no-repeat center center;
+				min-height: 100vh;
+				}
+
+			.sunset {
+				background: url(../img/wood-small.jpeg);
+				background-size: cover;
+				}
+
+			.about_text {
+				padding-left: 4px;
+				padding-right: 3px;
+				text-align: justify;
+				}
+	
+			.car-img { 
+			height: 45vh;
+			min-width: 100vw;
+		    }
+		}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+		}
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 900px) {
+		}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+		}
+
+@media (max-width: 740px) {
+			.jarallax {
+				height: 300px;
+				}
+		}
+
+@media (min-width: 769px) and (max-width: 1025px){
+			.jarallax {
+				height: 500px;
+			}
+		}
